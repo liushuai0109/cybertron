@@ -1,0 +1,19 @@
+{
+  "name": "superion",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/liushuai0109/superion.git"
+  },
+  "author": "liushuai0109",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/liushuai0109/superion/issues"
+  },
+  "homepage": "https://github.com/liushuai0109/superion#readme"
+}
