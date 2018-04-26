@@ -1,0 +1,19 @@
+html, body, #root, .app {
+  height:100%;
+  font-size: 62.5%;
+}
+body {
+  font-family:"PingFang SC";
+  -webkit-font-smoothing: antialiased;
+  height: 100%;
+}
+.no-scroll {
+  overflow: hidden;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+}

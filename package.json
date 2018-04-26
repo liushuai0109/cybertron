@@ -1,5 +1,5 @@
 {
-  "name": "superion",
+  "name": "cybertron",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,12 +8,27 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/liushuai0109/superion.git"
+    "url": "git+ssh://git@github.com/liushuai0109/cybertron.git"
   },
   "author": "liushuai0109",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/liushuai0109/superion/issues"
+    "url": "https://github.com/liushuai0109/cybertron/issues"
   },
-  "homepage": "https://github.com/liushuai0109/superion#readme"
+  "homepage": "https://github.com/liushuai0109/cybertron#readme",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "normalize.css": "^7.0.0",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-redux": "^5.0.6",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "redux": "^3.7.2",
+    "redux-actions": "^2.2.1",
+    "redux-thunk": "^2.2.0"
+  },
+  "devDependencies": {
+    "axios-mock-adapter": "^1.10.0"
+  }
 }

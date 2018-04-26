@@ -1,0 +1,37 @@
+.component-component-selector {
+  position: absolute;
+  width: 30rem;
+  height: 100%;
+  left: 0;
+  top: 0;
+  overflow-y: auto;
+  background: #fff;
+  box-shadow: rgba(0, 0, 0, 0.156863) 0 3px 10px, rgba(0, 0, 0, 0.227451) 0 3px 10px;
+  z-index: 1;
+
+  [data-path] {
+    position: relative;
+    margin: 2rem;
+    padding: 4rem 1rem 1rem;
+    -webkit-user-select: none;
+    cursor: move;
+    border-radius: 0 0 .2rem .2rem;
+    box-shadow: rgba(0, 0, 0, 0.156863) 0 3px 10px, rgba(0, 0, 0, 0.227451) 0 3px 10px;
+
+    &::after {
+      content: attr(data-info-name);
+      font-size: 1.4rem;
+      position: absolute;
+      width: 100%;
+      height: 3rem;
+      left: 0;
+      top: 0;
+      box-sizing: border-box;
+      line-height: 3rem;
+      padding: 0 0 0 1rem;
+      background: #FAFAFA;
+      color: #666666;
+      border-radius: .2rem .2rem 0 0;
+    }
+  }
+}

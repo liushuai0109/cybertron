@@ -1,0 +1,12 @@
+.idea
+.DS_Store
+node_modules
+build
+
+#add ci soda build temp file
+
+ci_script_writer_logger.log
+ci_script*
+.soda*
+ieg_ci_*
+ieg_log_*
